@@ -1,0 +1,4 @@
+load("@gazelle//:def.bzl", "gazelle")
+
+# gazelle:prefix github.com/yechuan51/golang-tutorial
+gazelle(name = "gazelle")
